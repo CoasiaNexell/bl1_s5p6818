@@ -67,8 +67,12 @@
 #include <s5p6818_raptor.h>
 #elif defined(KICK_ST)
 #include <s5p6818_kick_st.h>
+#elif defined(CONVERGENCE)
+#include <s5p6818_con_svma.h>
 #elif defined(CON_SVMA)
 #include <s5p6818_con_svma.h>
+#else
+#error "no machine selected"
 #endif
 
 #if defined(SYSLOG_ON)
