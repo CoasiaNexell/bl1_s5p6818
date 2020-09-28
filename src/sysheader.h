@@ -69,6 +69,8 @@
 #include <s5p6818_kick_st.h>
 #elif defined(CON_SVMA)
 #include <s5p6818_con_svma.h>
+#elif defined(BITMINER)
+#include <s5p6818_bitminer_ref.h>
 #endif
 
 #if defined(SYSLOG_ON)

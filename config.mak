@@ -60,6 +60,7 @@ BOARD				?= avn
 #BOARD				?= raptor
 #BOARD				?= kick_st
 #BOARD				?= con_svma
+#BOARD				?= bitminer
 
 # sd/mmc, spi, sdfs boot configuration
 DEVICE_PORT			?= 2
@@ -74,7 +75,7 @@ KERNEL_VER			?= 3
 #KERNEL_VER			?= 4
 
 # system log message
-SYSLOG				?= n
+SYSLOG				?= y
 
 # secure Boot
 SECURE_ON			?= n
