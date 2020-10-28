@@ -71,6 +71,8 @@
 #include <s5p6818_con_svma.h>
 #elif defined(CON_SVMA)
 #include <s5p6818_con_svma.h>
+#elif defined(VAPOR_GANG)
+#include <s5p6818_vapor_gang.h>
 #else
 #error "no machine selected"
 #endif
