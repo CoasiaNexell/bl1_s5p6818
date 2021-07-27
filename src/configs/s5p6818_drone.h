@@ -126,4 +126,7 @@
 /* pmic(power management ic) configuration */
 #define AXP228_PMIC_ENABLE
 
+#define AUTO_VOLTAGE_CONTROL			1
+#define ARM_VOLTAGE_CONTROL_SKIP		0
+
 #endif // #ifndef __S5P6818_DRONE_H__
