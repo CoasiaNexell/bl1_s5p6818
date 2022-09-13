@@ -143,7 +143,7 @@
 
 #define BL1_SDMMCBOOT_BOOTLOADER_A	        (0x10200)  //loader-emmc.img start address. See,partmap.txt
 #define BL1_SDMMCBOOT_BOOTLOADER_B		(0x4D0200) //loader-emmc.img start address. See,partmap.txt
-#define MISC_SDMMC_DEVADDR                      (0xA9090000) //See, partmap.txt
+#define MISC_SDMMC_DEVADDR                      (0x129090000) //See, partmap.txt
 #define MISC_SDMMC_SLOT_OFFSET                  (0x800)
 #define OTA_AB_UPDATE_SUFFIX_A                  (0)
 #define OTA_AB_UPDATE_SUFFIX_B                  (1)
